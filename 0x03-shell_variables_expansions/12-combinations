@@ -1,2 +1,2 @@
 #!/bin/bash
-echo "{a..n}{a..z}" {p..z}{a..z} o{a..n} o{p..z}
+echo {a..n}{a..z} o{a..n} o{p..z} {p..z}{a..z} | tail -303 | head -10
